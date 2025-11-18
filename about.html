@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Do ah nis pg -->
+    <title>.dev - Where Develeper Developing</title>
+
+    <!-- Impove SEO -->
+    <meta name="keywords" content="KICk, football, soccer, boots, cleats, apparel, accessories, Nike, Adidas, Puma, Messi, Ronaldo, Neymar, Haaland, Mbappé, online shop, sportswear, football gear, football shoes, sports accessories">
+    <meta name="description" content="KICK is your trusted online football shop offering the latest football boots, apparel, and accessories from top brands like Nike, Adidas, and Puma. Gear up and make your mark on the field!">
+    <!-- Page icon -->
+    <link rel="shortcut icon" href="./assets/images/logo/DotDev_logo_4x4.png" type="image/x-icon">
+
+    <!-- Tailwind Link CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Tailwind CLI -->
+    <!-- <link rel="stylesheet" href="src/output.css"> -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Header section -->
+    <header class="fixed z-1000 w-full shadow-sm">
+        <!-- <section class="flex justify-between w-full px-4 sm:px-[120px] bg-[#f5f5f5] items-center py-2">
+            <div>
+                <ul class="flex gap-4">
+                    <li><a href="adidas.html" title="Adidas logo"><span class="sr-only">Adidas Logo</span><img src="./assets/images//logo/MoEYS-Cambodia.svg.png" alt="adidas logo no bg" class="h-[20px] w-auto transition-transform duration-300 ease-in-out hover:scale-110"></a></li>
+                    <li><a href="puma.html" title="Puma logo"><span class="sr-only">Puma Logo</span><img src="./assets/images/logo/AUPP_Logo.png" alt="puma logo no bg" class="h-[20px] w-auto transition-transform duration-300 ease-in-out hover:scale-110"></a></li>
+                    <li><a href="nike.html" title="Nike logo"><span class="sr-only">Nike Logo</span><img src="./assets/images/logo/MPTC_logo.png" alt="nike logo no bg" class="h-[20px] w-auto transition-transform duration-300 ease-in-out hover:scale-110 "></a></li>
+                </ul>
+            </div>
+            <div>
+                <ul class="flex gap-2 md:gap-6 font-semibold text-[1rem] text-[#21242A]">
+                    <li><a href="about_us.html" class="text-[#0a74da] hover:underline underline-offset-4 transition-all duration-300 ease-in-out">About Us</a></li>
+                    <li><a href="contact.html" class="text-[#0a74da] hover:underline underline-offset-4 transition-all duration-300 ease-in-out">Contact Us</a></li>
+                </ul>
+            </div>
+        </section> -->
+        <nav class="hidden md:flex w-full px-4 bg-white py-2 md:flex-row md:px-[120px] justify-between items-center gap-2">
+            <div>
+                <a href="index.html" title="Kick Logo"><span class="sr-only">Logo</span><img src="./assets/images/logo/DotDev_logo_2x1.png" alt="Kick Logo" class="w-[70px] md:w-[80px] h-auto transition-transform duration-300 ease-in-out hover:scale-110 "></a>
+            </div>
+            <ul class="flex justify-center font-semibold gap-4 md:gap-6 w-full text-[1rem] md:text-[20px]">
+                <li><a href="index.html" class="text-[#0a74da] hover:underline underline-offset-4 transition-allo duration-300 ease-in-out">Home</a></li>
+                <li><a href="event.html" class="text-[#0a74da] hover:underline underline-offset-4 transition-all duration-300 ease-in-out">Event</a></li>
+                <li><a href="blog.html" class="text-[#0a74da] hover:underline underline-offset-4 transition-all duration-300 ease-in-out">Blog</a></li>
+                <li><a href="about.html" class="text-[#0a74da] hover:underline underline-offset-4 transition-all duration-300 ease-in-out">About</a></li>
+                <li><a href="contact.html" class="text-[#0a74da] hover:underline underline-offset-4 transition-all duration-300 ease-in-out">Contact</a></li>
+            </ul>
+            <div class=" flex gap-4 items-center">
+                <div class="relative w-full">
+                    <label for="search-input" class="sr-only">Search</label>
+                    <input type="text" id="search-input" name="search" placeholder="Search" class="pl-8 py-2 bg-[#f5f5f5] rounded-full focus:outline-1 focus:outline-[#0a74da] placeholder:text-[#545454]">
+                    <button type="submit" aria-label="Search" class="absolute top-1/2 right-4 -translate-y-1/2 outline-none cursor-pointer text-[#0a74da] hover:text-[#21242A] transition-colors duration-200">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                <div class="flex gap-4 text-[#21242A] text-[1.5rem]">
+                    <a href="favorite.html" class="transition-transform duration-300 ease-in-out hover:scale-105 text-[#0a74da]"><span class="sr-only">favorite</span><i class="fa-solid fa-user hover:text-[#545454]" title="favorite"></i></a>
+                </div>
+            </div>
+        </nav>
+        <!-- Mobile nav -->
+    </header>
+
+    
+    <!-- hero section -->
+    <main class="pt-2  w-full max-w-[90%] md:max-w-[80%] mx-auto">
+        <!-- Flex Section -->
+        <section class="w-full mt-10 md:mt-20 mx-auto w-full">
+            <div class="flex flex-col md:flex-row justify-between md:gap-10 items-center text-center md:text-left">
+                <h1 class="text-[60px] leading-[1.2] md:text-[120px] text-[#0a74da] font-bold mb-4 md:w-1/2">
+                    Learn. Share. Connect.
+                </h1>
+                <article class="md:w-2/5">
+                    <p class="text-base md:text-[1.5rem] text-[#545454] mb-4">
+                        Discover a platform tailored for IT students, and educators, providing resources from coding challenges to career guidance.
+                    </p>
+                    <p class="text-[1.25rem] md:text-[2.5rem] text-[#21242A] font-semibold mb-[1rem]">Your journey in IT begins here!</p>
+                    <a href="feature.html" class="inline-block text-base md:text-[1rem] px-6 py-2 bg-[#0a74da] text-white rounded-full font-semibold hover:bg-gray-800 transition-colors duration-300">
+                        Get Start
+                    </a>
+                    <a href="feature.html" class="inline-block text-base md:text-[1rem] px-6 py-2 bg-[#0a74da] text-white rounded-full font-semibold hover:bg-gray-800 transition-colors duration-300">
+                        Explore
+                    </a>
+                </article>
+            </div>
+
+        </section>
+
+        <!-- Brand selection -->
+        <section class="w-full mt-10 md:mt-20 mx-auto w-full">
+            <section class="w-full grid grid-cols-4">
+                <div class="w-full text-center">
+                    <h2 class="text-[1.25rem] md:text-[2.5rem] font-bold text-[#0a74da]">540+</h2>
+                    <p class="text-[0.75rem] md:text-[1.25rem] font-normal text-[#21242A]">Members</p>
+                </div>
+                <div class="w-full text-center">
+                    <h2 class="text-[1.25rem] md:text-[2.5rem] font-bold text-[#0a74da]">150+</h2>
+                    <p class="text-[0.75rem] md:text-[1.25rem] font-normal text-[#21242A]">Mentors</p>
+                </div>
+                <div class="w-full text-center">
+                    <h2 class="text-[1.25rem] md:text-[2.5rem] font-bold text-[#0a74da]">10+</h2>
+                    <p class="text-[0.75rem] md:text-[1.25rem] font-normal text-[#21242A]">Posts/day</p>
+                </div>
+                <div class="w-full text-center">
+                    <h2 class="text-[1.25rem] md:text-[2.5rem] font-bold text-[#0a74da]">80+</h2>
+                    <p class="text-[0.75rem] md:text-[1.25rem] font-normal text-[#21242A]">Industries</p>
+                </div>
+            </section>
+        </section>
+
+        <!-- Event Section -->
+        <section class="w-full mt-10 md:mt-30 mx-auto w-full">
+            <h1 class="text-[#0a74da] text-[1.5rem] md:text-[2.5rem] text-center font-bold mb-2 md:mb-4">Upcoming Event</h1>
+            <section class="w-full grid grid-cols-1 md:grid-cols-4 gap-2 md:gap-8">
+                <!-- card -->
+                <div class="w-full shadow-md p-2 rounded-xl shadow-blue-100">
+                    <img class="w-full rounded-md h-[12rem] md:rounded-xl overflow-hidden object-cover hover:scale-110 transition-all duration-300 ease-in-out" src="./assets/images/cpd-product-marketing-alliance-best-practices-hackathon.jpg" alt="">
+                    <article class="w-full p-2">
+                        <h3 class="text-[1.25rem] font-semibold text-[#0a74da]">AUPP Hackaton</h3>
+                        <p class="text-[1rem] text-[#545454] line-clamp-2">Team up with peers to build web apps in 24 hours, showcase your skills, and win prizes.</p>
+                        <p class="text-[1rem] text-[#545454] line-clamp-2">Host: AUPP Coding Club</p>
+                        <p class="text-[1rem] text-[#545454] line-clamp-2">Date: October 18, 2025</p>
+                        <p class="text-[1rem] text-[#545454] line-clamp-2">Location: ATC, Phnom Penh</p>
+                        <a class="mt-4 text-[1.25rem] text-[#0a74da] hover:text-[#21242A] transition-all duration-300" href="">Learn More <i class="fa-solid fa-up-right-from-square"></i></a>
+                    </article>
+                </div>
+                <div class="w-full shadow-md p-2 rounded-xl shadow-blue-100">
+                    <img class="w-full rounded-md h-[12rem] md:rounded-xl overflow-hidden object-cover hover:scale-110 transition-all duration-300 ease-in-out" src="https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/9dfa5a0d-526e-4e1c-bdac-79728308c4f3/ai-for-beginners-learn-ai-like-a-pro-without-the-struggle.png?t=1740628549" alt="">
+                    <article class="w-full p-2">
+                        <h3 class="text-[1.25rem] font-semibold text-[#0a74da]">Ai for Beginners</h3>
+                        <p class="text-[1rem] text-[#545454] line-clamp-2">Learn the basics of AI and machine learning through hands-on coding exercises.</p>
+                        <p class="text-[1rem] text-[#545454] line-clamp-2">Host: Dr. Tek Ming NG</p>
+                        <p class="text-[1rem] text-[#545454] line-clamp-2">Date: October 5, 2025</p>
+                        <p class="text-[1rem] text-[#545454] line-clamp-2">Location: ATC, Phnom Penh</p>
+                        <a class="mt-4 text-[1.25rem] text-[#0a74da] hover:text-[#21242A] transition-all duration-300" href="">Learn More <i class="fa-solid fa-up-right-from-square"></i></a>
+                    </article>
+                </div>
+                <div class="w-full shadow-md p-2 rounded-xl shadow-blue-100">
+                    <img class="w-full rounded-md h-[12rem] md:rounded-xl overflow-hidden object-cover hover:scale-110 transition-all duration-300 ease-in-out" src="https://english.ckgsb.edu.cn/knowledge/wp-content/uploads/2023/07/The-Bot-Connecttion.jpg" alt="">
+                    <article class="w-full p-2">
+                        <h3 class="text-[1.25rem] font-semibold text-[#0a74da]"> IT Career Connection</h3>
+                        <p class="text-[1rem] text-[#545454] line-clamp-2">Meet industry experts, share your projects, and explore internship opportunities.</p>
+                        <p class="text-[1rem] text-[#545454] line-clamp-2">Host: MPTC</p>
+                        <p class="text-[1rem] text-[#545454] line-clamp-2">Date: October 18, 2025</p>
+                        <p class="text-[1rem] text-[#545454] line-clamp-2">Location: Koh Pich, Phnom Penh</p>
+                        <a class="mt-4 text-[1.25rem] text-[#0a74da] hover:text-[#21242A] transition-all duration-300" href="">Learn More <i class="fa-solid fa-up-right-from-square"></i></a>
+                    </article>
+                </div>
+                <div class="w-full shadow-md p-2 rounded-xl shadow-blue-100">
+                    <img class="w-full rounded-md h-[12rem] md:rounded-xl overflow-hidden object-cover hover:scale-110 transition-all duration-300 ease-in-out" src="https://cdn.elearningindustry.com/wp-content/uploads/2019/01/5-ways-ai-is-changing-the-education-industry-1-1024x574.jpg" alt="">
+                    <article class="w-full p-2">
+                        <h3 class="text-[1.25rem] font-semibold text-[#0a74da]">Ai in Education</h3>
+                        <p class="text-[1rem] text-[#545454] line-clamp-2">Learn how to use Ai effectively in Cambodia Education</p>
+                        <p class="text-[1rem] text-[#545454] line-clamp-2">Host: MoeyS</p>
+                        <p class="text-[1rem] text-[#545454] line-clamp-2">Date: October 18, 2025</p>
+                        <p class="text-[1rem] text-[#545454] line-clamp-2">Location: Koh Pich, Phnom Penh</p>
+                        <a class="mt-4 text-[1.25rem] text-[#0a74da] hover:text-[#21242A] transition-all duration-300" href="">Learn More <i class="fa-solid fa-up-right-from-square"></i></a>
+                    </article>
+                </div>
+            </section>
+        </section>
+        
+        <!-- Blog -->
+        <section class="w-full mt-10 md:mt-30 mx-auto w-full">
+            <h1 class="text-[#0a74da] text-[1.5rem] md:text-[2.5rem] mb-2 md:mb-4">I Let’s hear from our members</h1>
+            <section class="w-full grid grid-cols-1 md:grid-cols-4 gap-2 md: gap-4">
+                <!-- card -->
+                <div class="w-full p-4 rounded-[1rem] border border-[#0a74da]">
+                    <article>
+                        <p class="text-[1rem] md:text-[1.25rem] text-[#21242A] line-clamp-3">“I was able to find a team for my capstone project within days. This community made collaboration so much easier.”</p>
+                    </article>
+                    <div class="w-full mt-2 md:mt-4 flex items-center justify-left gap-2 md:gap-4">
+                        <img class="w-[2rem] md:w-[3rem] rounded-full" src="./assets/images/./member/pheaktra.jpg" alt="">
+                        <p class="text-[1rem] md:text-[1.25rem] text-[#545454]">Sros Pheaktra</p>
+                    </div>
+                </div>
+                <div class="w-full p-4 rounded-[1rem] border border-[#0a74da]">
+                    <article>
+                        <p class="text-[1rem] md:text-[1.25rem] text-[#21242A] line-clamp-3">“I finally had a place to share my project and got feedback from peers I wouldn’t have met otherwise.”</p>
+                    </article>
+                    <div class="w-full mt-2 md:mt-4 flex items-center justify-left gap-2 md:gap-4">
+                        <img class="w-[2rem] md:w-[3rem] rounded-full" src="./assets/images/./member/pheaktra.jpg" alt="">
+                        <p class="text-[1rem] md:text-[1.25rem] text-[#545454]">Sros Pheaktra</p>
+                    </div>
+                </div>
+                <div class="w-full p-4 rounded-[1rem] border border-[#0a74da]">
+                    <article>
+                        <p class="text-[1rem] md:text-[1.25rem] text-[#21242A] line-clamp-3">“It’s inspiring to guide students here—sharing real-world experience while learning from their fresh ideas.”</p>
+                    </article>
+                    <div class="w-full mt-2 md:mt-4 flex items-center justify-left gap-2 md:gap-4">
+                        <img class="w-[2rem] md:w-[3rem] rounded-full" src="./assets/images/./member/pheaktra.jpg" alt="">
+                        <p class="text-[1rem] md:text-[1.25rem] text-[#545454]">Sros Pheaktra</p>
+                    </div>
+                </div>
+                <div class="w-full p-4 rounded-[1rem] border border-[#0a74da]">
+                    <article>
+                        <p class="text-[1rem] md:text-[1.25rem] text-[#21242A] line-clamp-3">“I was able to find a team for my capstone project within days. This community made collaboration so much easier.”</p>
+                    </article>
+                    <div class="w-full mt-2 md:mt-4 flex items-center justify-left gap-2 md:gap-4">
+                        <img class="w-[2rem] md:w-[3rem] rounded-full" src="./assets/images/./member/pheaktra.jpg" alt="">
+                        <p class="text-[1rem] md:text-[1.25rem] text-[#545454]">Sros Pheaktra</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- Join Community -->
+        <section class="w-full mt-10 md:mt-20 mx-auto w-full bg-blue-50 rounded-xl md:rounded-full p-4 md:p-10 xl:p-12">
+            <h1 class="text-[#0a74da] text-[1.5rem] md:text-[2.5rem] text-center font-bold mb-2 md:mb-4">Why Should You Join Our Community?</h1>
+            <section class="w-full md:px-[8rem] mt-2 mt-6 grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-12">
+                <!-- card -->
+                <div class="w-full">
+                    <h3 class="text-[1.25rem] md:text-[1.5rem] text-[#0a74da] font-semibold"><i class="fa-solid fa-rocket"></i> Boost Your IT Path</h3>
+                    <p class="text-[1rem] md:text-[1.25rem] text-[#545454]">Discuss coding problems, raise concerns, and exchange knowledge with other IT learners.</p>
+                </div>
+                <div class="w-full">
+                    <h3 class="text-[1.25rem] md:text-[1.5rem] text-[#0a74da] font-semibold"><i class="fa-solid fa-people-group"></i> Find Teammates</h3>
+                    <p class="text-[1rem] md:text-[1.25rem] text-[#545454]">Connect with peers to work on hackathons, class projects, or passion ideas together.</p>
+                </div>
+                <div class="w-full">
+                    <h3 class="text-[1.25rem] md:text-[1.5rem] text-[#0a74da] font-semibold"><i class="fa-solid fa-star"></i> Learn from Specialists</h3>
+                    <p class="text-[1rem] md:text-[1.25rem] text-[#545454]">Gain insights from industry mentors who share their experiences and career tips.</p>
+                </div>
+                <div class="w-full">
+                    <h3 class="text-[1.25rem] md:text-[1.5rem] text-[#0a74da] font-semibold"><i class="fa-solid fa-globe"></i> Showcase Your Work</h3>
+                    <p class="text-[1rem] md:text-[1.25rem] text-[#545454]">Share your coding projects, get feedback, and inspire others in the community.</p>
+                </div>
+            </section>
+        </section>
+        <section class="w-full mt-10 md:mt-30 mx-auto w-full">
+            <h1 class="text-[#0a74da] text-[1.5rem] md:text-[2.5rem] text-left font-bold mb-2 md:mb-4">Founder</h1>
+            <section class="w-full mt-2 mt-6 grid grid-cols-1 md:grid-cols-4 gap-2 md:gap-12">
+                <!-- card -->
+                <div class="w-full">
+                    <img class="w-full rounded-md md:rounded-xl overflow-hidden object-cover hover:scale-110 transition-all duration-300 ease-in-out" src="./assets/images/member/pheaktra.jpg" alt="">
+                    <article class="w-full p-2">
+                        <h3 class="text-[1.5rem] font-bold text-[#0a74da]">Sros Pheaktra</h3>
+                        <p class="text-[1rem] text-[#545454] line-clamp-2">Full-Stack Developer</p>
+                    </article>
+                </div>
+                <div class="w-full">
+                    <img class="w-full rounded-md md:rounded-xl overflow-hidden object-cover hover:scale-110 transition-all duration-300 ease-in-out" src="./assets/images/member/pheaktra.jpg" alt="">
+                    <article class="w-full p-2">
+                        <h3 class="text-[1.5rem] font-bold text-[#0a74da]">Sros Pheaktra</h3>
+                        <p class="text-[1rem] text-[#545454] line-clamp-2">Full-Stack Developer</p>
+                    </article>
+                </div>
+                <div class="w-full">
+                    <img class="w-full rounded-md md:rounded-xl overflow-hidden object-cover hover:scale-110 transition-all duration-300 ease-in-out" src="./assets/images/member/pheaktra.jpg" alt="">
+                    <article class="w-full p-2">
+                        <h3 class="text-[1.5rem] font-bold text-[#0a74da]">Sros Pheaktra</h3>
+                        <p class="text-[1rem] text-[#545454] line-clamp-2">Full-Stack Developer</p>
+                    </article>
+                </div>
+                <div class="w-full">
+                    <img class="w-full rounded-md md:rounded-xl overflow-hidden object-cover hover:scale-110 transition-all duration-300 ease-in-out" src="./assets/images/member/pheaktra.jpg" alt="">
+                    <article class="w-full p-2">
+                        <h3 class="text-[1.5rem] font-bold text-[#0a74da]">Sros Pheaktra</h3>
+                        <p class="text-[1rem] text-[#545454] line-clamp-2">Full-Stack Developer</p>
+                    </article>
+                </div>
+
+            </section>
+        </section>
+    </main>
+
+    <footer class="w-full h-auto bg-[#f5f5f5] mx-auto mt-10 md:mt-50 py-4 md:py-6 px-[7.5rem]" >
+        <section class="flex flex-col md:flex-row md:justify-between w-full gap-8 md:gap-0 text-[#21242A]">
+            <!-- Organize by -->
+            <div class="flex flex-col items-center text-center mb-6 md:mb-0">
+                <h3 class="text-[20px] font-semibold text-[#0a74da] mb-2">Organized by</h3>
+                <a href="https://www.cstad.edu.kh/"><img src="./assets/images/logo/DotDev_logo_4x4.png" alt="ISTAD logo" class="rounded-full w-[60px] md:w-[120px] mb-2 transition-transform duration-300 ease-in-out hover:scale-110"></a>
+                <span class="text-[14px] text-[#545454] md:text-[1rem]">DotDev</span>
+            </div>
+            <!-- Quick Link -->
+            <div class="flex flex-col items-center text-center mb-6 md:mb-0">
+                <h3 class="text-[20px] font-semibold text-[#0a74da] mb-2">Quick Links</h3>
+                <a href="about_us.html" class="text-[1rem] md:text-[20px] hover:underline underline-offset-4 text-[#545454] mb-1">About Us</a>
+                <a href="contact.html" class="text-[1rem] md:text-[20px] hover:underline underline-offset-4 text-[#545454] mb-1">Contact</a>
+                <a href="sign_in.html" class="text-[1rem] md:text-[20px] hover:underline underline-offset-4 text-[#545454]">Sign in</a>
+            </div>
+            <!-- Feature -->
+            <div class="flex flex-col items-center text-center mb-6 md:mb-0">
+                <h3 class="text-[20px] font-semibold text-[#0a74da] mb-2">
+                    Feature
+                </h3>
+                <a href="nike.html" class="text-[1rem] md:text-[20px] hover:underline underline-offset-4 text-[#545454] mb-1">Nike</a>
+                <a href="adidas.html" class="text-[1rem] md:text-[20px] hover:underline underline-offset-4 text-[#545454] mb-1">Adidas</a>
+                <a href="puma.html" class="text-[1rem] md:text-[20px] hover:underline underline-offset-4 text-[#545454] mb-1">Puma</a>
+                <a href="other_product.html" class="text-[1rem] md:text-[20px] hover:underline underline-offset-4 text-[#545454]">Others</a>
+            </div>
+            <!-- Collection -->
+            <div class="flex flex-col items-center text-center">
+                <h3 class="text-[20px] font-semibold text-[#0a74da] mb-2">
+                    <a href="collection.html" class="text-[#0a74da] hover:underline underline-offset-4 transition-all duration-300 ease-in-out">Collection</a>
+                </h3>
+                <a href="ronaldo.html" class="text-[1rem] md:text-[20px] hover:underline underline-offset-4 text-[#545454] mb-1">Ronaldo</a>
+                <a href="messi.html" class="text-[1rem] md:text-[20px] hover:underline underline-offset-4 text-[#545454] mb-1">Messi</a>
+                <a href="neymar.html" class="text-[1rem] md:text-[20px] hover:underline underline-offset-4 text-[#545454] mb-1">Neymar</a>
+                <a href="other_collection.html" class="text-[1rem] md:text-[20px] hover:underline underline-offset-4 text-[#545454]">Others</a>
+            </div>
+            <!-- Connection -->
+            <div class="flex flex-col items-center text-center">
+                <h3 class="text-[20px] font-semibold text-[#0a74da] mb-2">
+                    Connect with us
+                </h3>
+                <div class="flex gap-4 md:gap-6 text-[#545454]">
+                    <a href="https://www.facebook.com/srospheaktra756" class="text-[1rem] md:text-[24px] text-[#0a74da] transition-transform duration-300 ease-in-out hover:scale-105 hover:text-[#21242A]"><span class="sr-only">Facebook</span><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://t.me/Jukkiiee" class="text-[1rem] md:text-[24px] text-[#0a74da] transition-transform duration-300 ease-in-out hover:scale-105 hover:text-[#21242A]"><span class="sr-only">Telegram</span><i class="fa-brands fa-telegram"></i></a>
+                    <a href="https://github.com/sros-pheaktra" class="text-[1rem] md:text-[24px] text-[#0a74da] transition-transform duration-300 ease-in-out hover:scale-105 hover:text-[#21242A]"><span class="sr-only">GitHub</span><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/pheaktra-sros-6a8ab7373/" class="text-[1rem] md:text-[24px] text-[#0a74da] transition-transform duration-300 ease-in-out hover:scale-105 hover:text-[#21242A]"><span class="sr-only">Linkedin</span><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </section>
+            <!-- copyright section -->
+        <hr class="border-t-[1px] border-[#e5e5e5] my-4 md:my-8 w-full">
+        <section class="mt-5">
+            <p class="text-[12px] md:text-[1rem] text-[#545454] line-clamp-2 text-center">&copy Copyright DotDev. All Right Reserved.</p>
+        </section>
+    </footer>
+</body>
+</html>
