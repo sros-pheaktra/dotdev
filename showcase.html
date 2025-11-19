@@ -39,77 +39,83 @@
 
         <!-- SCROLLABLE MAIN CONTENT -->
         <section class="flex-1 h-full overflow-y-scroll p-6">
-            <h1 class="text-2xl font-bold mb-4 text-[#0a74da]"></h1>Showcase
-            
+            <h1 class="text-2xl font-bold mb-4 text-[#0a74da]">Showcase</h1>
+            <p class="text-md text-black mb-4">Discover amazing projects built by our community</p>
             <!-- filler content -->
-            <div class="space-y-6">
+            <div class="space-y-4">
                 <!-- post card -->
-                <div class="bg-white border border-gray-200 rounded-xl p-4 shadow-sm">
-                    
-                    <!-- User Info -->
-                    <div class="flex items-center gap-3 mb-3">
-                        <img src="./assets/images/member/pheaktra.jpg" class="w-10 h-10 rounded-full object-cover" alt="User">
-                        <div>
-                            <p class="font-semibold text-gray-900">Sros Pheaktra</p>
-                            <p class="text-xs text-gray-500">Just now </p>
+                <div class="bg-white text-black hover:text-[#0a74da] hover:bg-gray-100 rounded-2xl p-4 flex items-start justify-between w-full max-w-4xl transition-all duration-300 ease-in-out">
+
+                    <!-- Left Section -->
+                    <div class="flex gap-4">
+                        <!-- Project Icon -->
+                        <img src="./assets/images/projects/PhsarKhmer_4x4.jpg"
+                            class="w-14 h-14 rounded-lg object-cover"
+                            alt="Project Logo">
+
+                        <div class="space-y-1">
+                            <!-- Project Name -->
+                            <h3 class="text-lg font-semibold">PhsarKhmer</h3>
+
+                            <!-- Short Description -->
+                            <p class="text-gray-700 text-sm leading-relaxed">
+                                PhsarKhmer is Cambodia’s trusted e-commerce platform dedicated to selling authentic products made in Cambodia. Shop local brands, support Khmer producers, and enjoy fast delivery across Phnom Penh and Cambodia.
+                            </p>
+
+                            <!-- Creator -->
+                            <div class="flex items-center gap-2 mt-2">
+                                <img src="./assets/images/member/pheaktra.jpg"
+                                    class="w-6 h-6 rounded-full object-cover"
+                                    alt="Creator">
+                                <span class="text-gray-600 text-sm">Sros Pheaktra</span>
+                            </div>
                         </div>
                     </div>
 
-                    <!-- Post Text -->
-                    <article class="text-gray-800 mb-3 line-clamp-2">
-                        Introducing .dev!
-                    </article>
-
-                    <!-- Post Image -->
-                    <img src="./assets/images/posts/dotdev.png" 
-                        class="w-full rounded-lg border border-gray-200" 
-                        alt="Post image">
-
-                    <!-- Reactions / Actions -->
-                    <div class="flex justify-between text-sm text-gray-600 mt-3 pt-3 border-gray-200 border-t">
-                        <button class="hover:bg-gray-100 rounded-md px-3 py-1 text-md"><i class="fa-regular fa-thumbs-up"></i> 82 likes</button>
-                        <button class="hover:bg-gray-100 rounded-md px-3 py-1 text-md"><i class="fa-regular fa-comment"></i> 3 comments</button>
-                        <button class="hover:bg-gray-100 rounded-md px-3 py-1 text-md"><i class="fa-regular fa-eye"></i> 200 views</button>
+                    <!-- Upvote Counter -->
+                    <div class="flex flex-col items-center justify-center border-2 border-gray-300 hover:border-[#0a74da] rounded-xl px-4 py-2 transition-all duration-300 ease-in-out">
+                        <i class="fa-regular fa-heart text-gray-600 text-lg"></i>
+                        <span class="text-gray-700 font-medium">28</span>
                     </div>
                 </div>
-            </div> 
+                <a href="./kick.html" class="block group" aria-label="Kick">
+                    <div class="bg-white text-black hover:text-[#0a74da] hover:bg-gray-100 rounded-2xl p-4 flex items-start justify-between w-full max-w-4xl transition-all duration-300 ease-in-out">
 
+                        <!-- Left Section -->
+                        <div class="flex gap-4">
+                            <!-- Project Icon -->
+                            <img src="./assets/images/projects/Kick_white_logo.jpg"
+                                class="w-14 h-14 rounded-lg object-cover"
+                                alt="Project Logo">
 
+                            <div class="space-y-1">
+                                <!-- Project Name -->
+                                <h3 class="text-lg font-semibold">Kick</h3>
 
-        </section>
+                                <!-- Short Description -->
+                                <p class="text-gray-700 text-sm leading-relaxed">
+                                    KICK is your trusted online football shop offering the latest football boots, apparel, and accessories from top brands like Nike, Adidas, and Puma. Gear up and make your mark on the field!
+                                </p>
 
-        <!-- RIGHT SIDEBAR -->
-        <aside class="w-[17.5rem] h-full bg-white p-6 border-l-1 border-gray-200 hidden xl:block overflow-y-auto">
-            <img class="w-full max-w-[75%]" src="./assets/images//logo/DotDev_logo_2x1.png" alt="">
-            <h3 class="text-[18px] font-semibold text-[#0a74da] mb-2">
-                Where Developers Develop!
-            </h3>
-            <p class="text-md text-black">
-                <b class="text-[#0a74da]">.dev</b> is an innovative coding community where developers, designers, and tech enthusiasts learn, share, and connect.
-            </p>
-            <div class="w-full mt-4 grid grid-cols-2 gap-2">
-                <!-- card -->
-                <div class="text-left">
-                    <h3 class="text-[#0a74da] text-2xl font-bold ">2344</h3>
-                    <p class="text-sm text-[#545454]">members</p>
-                </div>
-                <div class="text-left">
-                    <h3 class="text-[#0a74da] text-2xl font-bold ">12</h3>
-                    <p class="text-sm text-[#545454]">posts/day</p>
-                </div>
-                <div class="text-left">
-                    <h3 class="text-[#0a74da] text-2xl font-bold ">82</h3>
-                    <p class="text-sm text-[#545454]">projects</p>
-                </div>
-                <div class="text-left">
-                    <h3 class="text-[#0a74da] text-2xl font-bold ">32</h3>
-                    <p class="text-sm text-[#545454]">industries</p>
-                </div>
+                                <!-- Creator -->
+                                <div class="flex items-center gap-2 mt-2">
+                                    <img src="./assets/images/member/pheaktra.jpg"
+                                        class="w-6 h-6 rounded-full object-cover"
+                                        alt="Creator">
+                                    <span class="text-gray-600 text-sm">Sros Pheaktra</span>
+                                </div>
+                            </div>
+                        </div>
 
+                        <!-- Upvote Counter -->
+                        <div class="flex flex-col items-center justify-center border-2 border-gray-300 hover:border-[#0a74da] rounded-xl px-4 py-2 transition-all duration-300 ease-in-out">
+                            <i class="fa-regular fa-heart text-gray-600 text-lg"></i>
+                            <span class="text-gray-700 font-medium">28</span>
+                        </div>
+                    </div>
+                </a>
             </div>
-
-        </aside>
-
+        </section>
     </main> 
 
 </body>
