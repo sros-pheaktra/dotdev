@@ -24,7 +24,7 @@
     <main class="flex w-full lg:max-w-[75%] mx-auto h-screen">
 
         <!-- LEFT SIDEBAR -->
-        <aside class="w-[17.5rem] h-full bg-white p-6 border-r-1 border-gray-200 hidden xl:block overflow-y-auto">
+        <aside class="hidden md:w-[15rem] xl:w-[17.5rem] h-full bg-white p-6 border-r-1 border-gray-200 hidden xl:block overflow-y-auto">
             <label for="search-input" class="sr-only">Search</label>
                 <input type="text" id="search-input" name="search" placeholder="Search article..." class="w-full font-semibold p-2 bg-gray-100 rounded-md hover:font-semibold outline-[#0a74da] placeholder:text-gray-400">
             <ul class="mt-4 flex flex-col">
@@ -35,7 +35,40 @@
                 <li class="w-full"><a href="./member.html" class="w-full p-2 rounded-md hover:bg-gray-100 inline-block font-semibold text-[#0a74da] transition-all duration-300 ease-in-out"><i class="fa-solid fa-people-group"></i> Member</a></li>
                 <li class="w-full"><a href="./about.html" class="w-full p-2 rounded-md hover:bg-gray-100 inline-block font-semibold text-[#0a74da] transition-all duration-300 ease-in-out"><i class="fa-solid fa-address-card"></i> About</a></li>
             </ul>
+            <div class="mt-6 pt-4 border-t border-gray-200 flex items-center gap-3">
+                <img src="./assets/images/member/pheaktra.jpg" 
+                    class="w-10 h-10 rounded-full object-cover" alt="User">
+
+                <div>
+                    <p class="font-semibold text-gray-900">Sros Pheaktra</p>
+                    <p class="text-xs text-gray-500">@pheaktrasros</p>
+                </div>
+            </div>
         </aside>
+        <!-- Mobile Bottom Navigation -->
+        <nav class="fixed bottom-0 left-0 right-0 z-50 bg-white border-t border-gray-200 shadow-md px-8 py-4 flex justify-between items-center md:hidden">
+
+            <a aria-label="mobile-nav" href="./index.html" class="flex flex-col items-center text-lg text-[#0a74da]">
+                <i class="fa-solid fa-house text-lg"></i>
+            </a>
+
+            <a aria-label="mobile-nav" href="./event.html" class="flex flex-col items-center text-lg text-[#0a74da]">
+                <i class="fa-solid fa-calendar text-lg"></i>
+            </a>
+
+            <a aria-label="mobile-nav" href="./blog.html" class="flex flex-col items-center text-lg text-[#0a74da]">
+                <i class="fa-brands fa-blogger text-lg"></i>
+            </a>
+
+            <a aria-label="mobile-nav" href="./showcase.html" class="flex flex-col items-center text-lg text-[#0a74da]">
+                <i class="fa-solid fa-star text-lg"></i>
+            </a>
+
+            <a aria-label="mobile-nav" href="./member.html" class="flex flex-col items-center text-lg text-[#0a74da]">
+                <i class="fa-solid fa-people-group text-lg"></i>
+            </a>
+
+        </nav>
 
         <!-- SCROLLABLE MAIN CONTENT -->
         <section class="flex-1 h-full overflow-y-scroll p-6">
